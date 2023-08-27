@@ -1,0 +1,46 @@
+body {
+    background: #E23E57;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Space items evenly between columns */
+}
+
+ol {
+    column-count: 2;
+    width: 100%;
+    column-gap: 2em;
+}
+
+ol li:first-child {
+    margin-top: 0;
+}
+
+ol li {
+    background: #2b2b2b;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+ol li::marker {
+    font-style: italic;
+    display: block;
+    font-weight: 800;
+}
