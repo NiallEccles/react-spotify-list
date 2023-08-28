@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
-import { Home } from './Home';
-import { Auth } from './Auth';
-import { Top } from './Top';
+import { Home } from './pages/Home';
+import { Auth } from './pages/Auth';
+import { Top } from './pages/Top';
 // import { useSpotifyAuthCode } from './hooks/useSpotifyAuthCode';
 
 function App() {

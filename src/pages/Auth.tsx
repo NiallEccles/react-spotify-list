@@ -1,8 +1,8 @@
 import { useQuery } from "react-query";
-import { SPOTIFY } from "./constants";
+import { SPOTIFY } from "../constants";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { isLocal } from "./utils/isLocal";
+import { isLocal } from "../utils/isLocal";
 
 export const Auth = () => {
     const urlParams = new URLSearchParams(window.location.search);
