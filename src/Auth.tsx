@@ -2,6 +2,7 @@ import { useQuery } from "react-query";
 import { SPOTIFY } from "./constants";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { isLocal } from "./utils/isLocal";
 
 export const Auth = () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -16,7 +17,7 @@ export const Auth = () => {
             const body = new URLSearchParams({
                 grant_type: 'authorization_code',
                 code: code,
-                redirect_uri: SPOTIFY.REDIRECT_URI,
+                redirect_uri: isLocal() ? SPOTIFY.LOCAL_REDIRECT_URI : SPOTIFY.REDIRECT_URI,
                 client_id: SPOTIFY.CLIENT_ID,
                 code_verifier: codeVerifier
             });

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { SPOTIFY } from '../constants';
+import { isLocal } from '../utils/isLocal';
 
 function generateRandomString(length: number) {
     let text = '';
@@ -25,7 +26,7 @@ export function useSpotifyAuthUrl() {
 
     useEffect(() => {
         const clientId = SPOTIFY.CLIENT_ID;
-        const redirectUri = SPOTIFY.REDIRECT_URI;
+        const redirectUri = isLocal() ? SPOTIFY.LOCAL_REDIRECT_URI : SPOTIFY.REDIRECT_URI;
 
         const codeVerifier = generateRandomString(128);
 
