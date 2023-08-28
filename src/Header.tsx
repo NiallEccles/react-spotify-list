@@ -1,27 +1,38 @@
+import { useEffect, useState } from "react";
 import { useQuery } from "react-query";
-import { useNavigate } from "react-router-dom";
+
+interface Me {
+    display_name: string;
+}
 
 export const Header = () => {
+    const [myData, setMyData] = useState<Me| null>(null);
     const accessToken = localStorage.getItem('access_token');
-
-    const navigate = useNavigate();
-
-    const { isLoading, error, data, isFetching } = useQuery("Spotify Me", async () => {
-        const response = await fetch('https://api.spotify.com/v1/me', {
+    const { data, isLoading, status, error } = useQuery("Spotify Me", async () => {
+        const response = await fetch('https://api.spotify.com/v1/me/', {
             headers: {
-                Authorization: 'Bearer ' + accessToken
-            }
+                Authorization: 'Bearer ' + accessToken,
+            },
         });
         const returnData = await response.json();
 
         return returnData;
     });
 
-    if(error){
-        navigate('/', { replace: true })
-    }
+    console.log(data);
+
+    useEffect(() => {
+        if (!isLoading) {
+            if (status === "success") {
+                setMyData(data);
+            } else {
+                console.log('ERROR');
+                console.log(error);
+            }
+        }
+    }, [data, status]);
 
     return (
-        !isLoading && !isFetching && <h2>{data.display_name}</h2>
+        <h3>{myData?.display_name}</h3>
     )
 }
