@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FormattedMessage } from "react-intl";
 import { useQuery } from "react-query";
 
 interface Artist {
@@ -35,7 +36,7 @@ export const TopArtists = () => {
 
     return (
         <section>
-            <h3>Top Artists</h3>
+            <h3><FormattedMessage id="topArtists" /></h3>
             <ol>
                 {
                     artistData && artistData.map((artist: Artist, index: number) => {

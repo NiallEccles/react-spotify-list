@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FormattedMessage } from "react-intl";
 import { useQuery } from "react-query";
 
 interface Track {
@@ -35,7 +36,7 @@ export const TopSongs = () => {
 
     return (
         <section>
-            <h3>Top Songs</h3>
+            <h3><FormattedMessage id="topTracks" /></h3>
             <ol>
                 {
                     trackData && trackData.map((track: Track, index: number) => {
