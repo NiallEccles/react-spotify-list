@@ -18,6 +18,8 @@ export const TopSongs = () => {
         const returnData = await response.json();
 
         return returnData;
+    }, {
+        staleTime: Infinity
     });
 
     console.log(data);

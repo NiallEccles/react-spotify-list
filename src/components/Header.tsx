@@ -6,7 +6,7 @@ interface Me {
 }
 
 export const Header = () => {
-    const [myData, setMyData] = useState<Me| null>(null);
+    const [myData, setMyData] = useState<Me | null>(null);
     const accessToken = localStorage.getItem('access_token');
     const { data, isLoading, status, error } = useQuery("Spotify Me", async () => {
         const response = await fetch('https://api.spotify.com/v1/me/', {
@@ -17,6 +17,8 @@ export const Header = () => {
         const returnData = await response.json();
 
         return returnData;
+    }, {
+        staleTime: Infinity
     });
 
     console.log(data);
