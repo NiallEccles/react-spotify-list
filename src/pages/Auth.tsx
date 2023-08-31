@@ -3,12 +3,13 @@ import { SPOTIFY } from "../constants";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { isLocal } from "../utils/isLocal";
+import { useStore } from "../state";
 
 export const Auth = () => {
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
 
-    const codeVerifier = localStorage.getItem('code_verifier');
+    const { code_verififer: codeVerifier, setAccessToken } = useStore();
 
     const navigate = useNavigate();
 
@@ -41,7 +42,7 @@ export const Auth = () => {
                 console.log('GOT DATA');
                 const { access_token } = data;
                 console.log(access_token);
-                localStorage.setItem('access_token', access_token);
+                setAccessToken(access_token);
                 navigate('/top', { replace: true })
             } else {
                 console.log('ERROR');
