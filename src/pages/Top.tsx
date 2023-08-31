@@ -5,6 +5,7 @@ import { TopSongs } from "../components/TopSongs"
 import { query } from "../queries"
 import { useStore } from "../state"
 import { SPOTIFY } from "../constants";
+import { me, topArtists, topTracks } from "../mockData"
 
 export const Top = () => {
     const { access_token } = useStore();
