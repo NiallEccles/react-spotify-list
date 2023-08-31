@@ -17,7 +17,7 @@ export const SPOTIFY: SPOTIFY_CONSTANTS = {
     API: {
         ROOT: 'https://api.spotify.com/v1/',
         ME: 'https://api.spotify.com/v1/me/',
-        TOP_ARTISTS: 'https://api.spotify.com/v1/me/top/artists',
-        TOP_TRACKS: 'https://api.spotify.com/v1/me/top/tracks'
+        TOP_ARTISTS: 'https://api.spotify.com/v1/me/top/artists?time_range=short_term',
+        TOP_TRACKS: 'https://api.spotify.com/v1/me/top/tracks?time_range=short_term'
     },
 }
