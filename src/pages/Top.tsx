@@ -30,9 +30,9 @@ export const Top = () => {
     console.log(me, topArtists, topTracks);
     return (
         <>
-            <Header data={me.data}/>
-            <TopArtists items={topArtists.data.items}/>
-            <TopSongs items={topTracks.data.items}/>
+            {me.data ? <Header data={me.data}/> : ''}
+            {topArtists.data ? <TopArtists items={topArtists.data.items}/> : ''}
+            {topTracks.data ? <TopSongs items={topTracks.data.items}/> : ''}
         </>
     )
 }
