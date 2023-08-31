@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { SPOTIFY } from '../constants';
 import { isLocal } from '../utils/isLocal';
+import { useStore } from "../state";
 
 function generateRandomString(length: number) {
     let text = '';
@@ -23,6 +24,7 @@ function base64encode(arrayBuffer: ArrayBuffer) {
 
 export function useSpotifyAuthUrl() {
     const [authUrl, setAuthUrl] = useState<string | null>(null);
+    const { setCodeVerifier } = useStore();
 
     useEffect(() => {
         const clientId = SPOTIFY.CLIENT_ID;
@@ -34,7 +36,7 @@ export function useSpotifyAuthUrl() {
             const state = generateRandomString(16);
             const scope = 'user-top-read';
 
-            localStorage.setItem('code_verifier', codeVerifier);
+            setCodeVerifier(codeVerifier)
 
             const args = new URLSearchParams({
                 response_type: 'code',
