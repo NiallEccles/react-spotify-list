@@ -7,795 +7,3962 @@ export const topTracks = {
     "data": {
         "items": [
             {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "australian psych",
-                    "double drumming",
-                    "microtonal",
-                    "neo-psychedelic"
-                ],
-                "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
-                "id": "6XYvaoDGE0VmRt83Jss9Sn",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebae21e90221e814c50033133a",
-                        "width": 640
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
                     },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
                     {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174ae21e90221e814c50033133a",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178ae21e90221e814c50033133a",
-                        "width": 160
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
                     }
                 ],
-                "name": "King Gizzard & The Lizard Wizard",
-                "popularity": 62,
-                "type": "artist",
-                "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 236440,
+                "explicit": true,
+                "external_ids": {
+                    "isrc": "AUTZK1900026"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/6FwC9wgE3oBtM7C0KpOzvm"
+                },
+                "href": "https://api.spotify.com/v1/tracks/6FwC9wgE3oBtM7C0KpOzvm",
+                "id": "6FwC9wgE3oBtM7C0KpOzvm",
+                "is_local": false,
+                "name": "Planet B",
+                "popularity": 41,
+                "preview_url": "https://p.scdn.co/mp3-preview/46624fd7453008ddf6988b202b606f2ddbbe1a9f?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:6FwC9wgE3oBtM7C0KpOzvm"
             },
             {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                "album": {
+                    "album_type": "COMPILATION",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                            "id": "0LyfQWJT6nXafLPZqxe9Of",
+                            "name": "Various Artists",
+                            "type": "artist",
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/6oQPnEVls3b5rYADbS1TvE"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/6oQPnEVls3b5rYADbS1TvE",
+                    "id": "6oQPnEVls3b5rYADbS1TvE",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273faadd4fe559e16f7e37d0f3b",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02faadd4fe559e16f7e37d0f3b",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851faadd4fe559e16f7e37d0f3b",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Unity Pt. 3",
+                    "release_date": "2022-07-20",
+                    "release_date_precision": "day",
+                    "total_tracks": 39,
+                    "type": "album",
+                    "uri": "spotify:album:6oQPnEVls3b5rYADbS1TvE"
                 },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "alternative metal",
-                    "melodic metalcore",
-                    "melodic thrash",
-                    "metal",
-                    "metalcore",
-                    "nu metal",
-                    "post-grunge"
-                ],
-                "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
-                "id": "278ZYwGhdK6QTzE3MFePnP",
-                "images": [
+                "artists": [
                     {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebb3a5f891ffd71672d0e99e26",
-                        "width": 640
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/3wkaDi2HJV3eCaBJ4iH6om"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/3wkaDi2HJV3eCaBJ4iH6om",
+                        "id": "3wkaDi2HJV3eCaBJ4iH6om",
+                        "name": "ANNA",
+                        "type": "artist",
+                        "uri": "spotify:artist:3wkaDi2HJV3eCaBJ4iH6om"
                     },
                     {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174b3a5f891ffd71672d0e99e26",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178b3a5f891ffd71672d0e99e26",
-                        "width": 160
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/0skRhVJnuKDMGoLkqr1MAL"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/0skRhVJnuKDMGoLkqr1MAL",
+                        "id": "0skRhVJnuKDMGoLkqr1MAL",
+                        "name": "Ravid",
+                        "type": "artist",
+                        "uri": "spotify:artist:0skRhVJnuKDMGoLkqr1MAL"
                     }
                 ],
-                "name": "Trivium",
-                "popularity": 59,
-                "type": "artist",
-                "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
-            },
-            {
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 213390,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "DEEC33500688"
+                },
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    "spotify": "https://open.spotify.com/track/2gauzJG2UlNCWiBP5ppcNc"
                 },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "conscious hip hop",
-                    "hip hop",
-                    "rap",
-                    "west coast rap"
-                ],
-                "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
-                "id": "2YZyLoL8N0Wb9xBt1NhZWg",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174437b9e2a82505b3d93ff1022",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178437b9e2a82505b3d93ff1022",
-                        "width": 160
-                    }
-                ],
-                "name": "Kendrick Lamar",
-                "popularity": 86,
-                "type": "artist",
-                "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/0XNa1vTidXlvJ2gHSsRi4A"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "alternative rock",
-                    "dance rock",
-                    "indie rock",
-                    "modern rock",
-                    "rock",
-                    "scottish rock"
-                ],
-                "href": "https://api.spotify.com/v1/artists/0XNa1vTidXlvJ2gHSsRi4A",
-                "id": "0XNa1vTidXlvJ2gHSsRi4A",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebda4df4a711bb9f47722b7706",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174da4df4a711bb9f47722b7706",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178da4df4a711bb9f47722b7706",
-                        "width": 160
-                    }
-                ],
-                "name": "Franz Ferdinand",
-                "popularity": 65,
-                "type": "artist",
-                "uri": "spotify:artist:0XNa1vTidXlvJ2gHSsRi4A"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "alternative metal",
-                    "alternative rock",
-                    "modern rock",
-                    "permanent wave",
-                    "post-grunge",
-                    "rock"
-                ],
-                "href": "https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD",
-                "id": "7jy3rLJdDQY21OgRLCZ9sD",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178c884df599abc793c116cdf15",
-                        "width": 160
-                    }
-                ],
-                "name": "Foo Fighters",
-                "popularity": 76,
-                "type": "artist",
-                "uri": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "dance pop",
-                    "edm",
-                    "electro house",
-                    "house",
-                    "pop",
-                    "progressive house",
-                    "uk dance"
-                ],
-                "href": "https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY",
-                "id": "7CajNmpbOovFoOoasH2HaY",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb37bff6aa1d42bede9048750f",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517437bff6aa1d42bede9048750f",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17837bff6aa1d42bede9048750f",
-                        "width": 160
-                    }
-                ],
-                "name": "Calvin Harris",
-                "popularity": 84,
-                "type": "artist",
-                "uri": "spotify:artist:7CajNmpbOovFoOoasH2HaY"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "irish singer-songwriter",
-                    "modern rock",
-                    "pop",
-                    "pov: indie"
-                ],
-                "href": "https://api.spotify.com/v1/artists/2FXC3k01G6Gw61bmprjgqS",
-                "id": "2FXC3k01G6Gw61bmprjgqS",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebad85a585103dfc2f3439119a",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174ad85a585103dfc2f3439119a",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178ad85a585103dfc2f3439119a",
-                        "width": 160
-                    }
-                ],
-                "name": "Hozier",
-                "popularity": 80,
-                "type": "artist",
-                "uri": "spotify:artist:2FXC3k01G6Gw61bmprjgqS"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "alternative hip hop",
-                    "east coast hip hop",
-                    "hip hop",
-                    "instrumental hip hop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/2pAWfrd7WFF3XhVt9GooDL",
-                "id": "2pAWfrd7WFF3XhVt9GooDL",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb1ca139a174e216880498dc16",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051741ca139a174e216880498dc16",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1781ca139a174e216880498dc16",
-                        "width": 160
-                    }
-                ],
-                "name": "MF DOOM",
-                "popularity": 73,
-                "type": "artist",
-                "uri": "spotify:artist:2pAWfrd7WFF3XhVt9GooDL"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/0GDGKpJFhVpcjIGF8N6Ewt"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "alternative metal",
-                    "french death metal",
-                    "french metal",
-                    "groove metal",
-                    "metal",
-                    "nu metal",
-                    "progressive groove metal"
-                ],
-                "href": "https://api.spotify.com/v1/artists/0GDGKpJFhVpcjIGF8N6Ewt",
-                "id": "0GDGKpJFhVpcjIGF8N6Ewt",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb96c4949ee078fbef5d5adb68",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517496c4949ee078fbef5d5adb68",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17896c4949ee078fbef5d5adb68",
-                        "width": 160
-                    }
-                ],
-                "name": "Gojira",
-                "popularity": 62,
-                "type": "artist",
-                "uri": "spotify:artist:0GDGKpJFhVpcjIGF8N6Ewt"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/18H0sAptzdwid08XGg1Lcj"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "canadian rock",
-                    "dance-punk",
-                    "garage rock",
-                    "indietronica",
-                    "modern alternative rock",
-                    "modern rock"
-                ],
-                "href": "https://api.spotify.com/v1/artists/18H0sAptzdwid08XGg1Lcj",
-                "id": "18H0sAptzdwid08XGg1Lcj",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb564eec26efb2ab29424cba8e",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174564eec26efb2ab29424cba8e",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178564eec26efb2ab29424cba8e",
-                        "width": 160
-                    }
-                ],
-                "name": "Death From Above 1979",
-                "popularity": 45,
-                "type": "artist",
-                "uri": "spotify:artist:18H0sAptzdwid08XGg1Lcj"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/4RnBFZRiMLRyZy0AzzTg2C"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "alternative hip hop",
-                    "escape room",
-                    "hip hop",
-                    "political hip hop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/4RnBFZRiMLRyZy0AzzTg2C",
-                "id": "4RnBFZRiMLRyZy0AzzTg2C",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebea5eda58996c7f08d423d522",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174ea5eda58996c7f08d423d522",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178ea5eda58996c7f08d423d522",
-                        "width": 160
-                    }
-                ],
-                "name": "Run The Jewels",
-                "popularity": 58,
-                "type": "artist",
-                "uri": "spotify:artist:4RnBFZRiMLRyZy0AzzTg2C"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/1lJhME1ZpzsEa5M0wW6Mso"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "belgian techno",
-                    "electra"
-                ],
-                "href": "https://api.spotify.com/v1/artists/1lJhME1ZpzsEa5M0wW6Mso",
-                "id": "1lJhME1ZpzsEa5M0wW6Mso",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb07ae5453e5679df4ccb454dd",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517407ae5453e5679df4ccb454dd",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17807ae5453e5679df4ccb454dd",
-                        "width": 160
-                    }
-                ],
-                "name": "Charlotte de Witte",
-                "popularity": 60,
-                "type": "artist",
-                "uri": "spotify:artist:1lJhME1ZpzsEa5M0wW6Mso"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "edm",
-                    "house",
-                    "stutter house"
-                ],
-                "href": "https://api.spotify.com/v1/artists/4oLeXFyACqeem2VImYeBFe",
-                "id": "4oLeXFyACqeem2VImYeBFe",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb69eea22d7189af21794f3043",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517469eea22d7189af21794f3043",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17869eea22d7189af21794f3043",
-                        "width": 160
-                    }
-                ],
-                "name": "Fred again..",
-                "popularity": 75,
-                "type": "artist",
-                "uri": "spotify:artist:4oLeXFyACqeem2VImYeBFe"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/3EgMK920cIH5aLxFnJ6zSi"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "doom metal",
-                    "drone",
-                    "drone metal",
-                    "experimental rock",
-                    "gaian doom",
-                    "j-metal",
-                    "japanese post-rock",
-                    "japanese psychedelic",
-                    "japanese psychedelic rock",
-                    "noise pop",
-                    "noise rock",
-                    "post-metal",
-                    "stoner metal",
-                    "stoner rock"
-                ],
-                "href": "https://api.spotify.com/v1/artists/3EgMK920cIH5aLxFnJ6zSi",
-                "id": "3EgMK920cIH5aLxFnJ6zSi",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb8e7908586d94ccafd90721fb",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051748e7908586d94ccafd90721fb",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1788e7908586d94ccafd90721fb",
-                        "width": 160
-                    }
-                ],
-                "name": "Boris",
-                "popularity": 40,
-                "type": "artist",
-                "uri": "spotify:artist:3EgMK920cIH5aLxFnJ6zSi"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/7mC3RkNNTV6p2j9w4F8Ip4"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "dark techno"
-                ],
-                "href": "https://api.spotify.com/v1/artists/7mC3RkNNTV6p2j9w4F8Ip4",
-                "id": "7mC3RkNNTV6p2j9w4F8Ip4",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb0c06ffa45bfc4f38e68d82fc",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051740c06ffa45bfc4f38e68d82fc",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1780c06ffa45bfc4f38e68d82fc",
-                        "width": 160
-                    }
-                ],
-                "name": "Layton Giordani",
-                "popularity": 47,
-                "type": "artist",
-                "uri": "spotify:artist:7mC3RkNNTV6p2j9w4F8Ip4"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/0ETJQforv5OXgDgidQv9qd"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "dutch house",
-                    "electro house",
-                    "house"
-                ],
-                "href": "https://api.spotify.com/v1/artists/0ETJQforv5OXgDgidQv9qd",
-                "id": "0ETJQforv5OXgDgidQv9qd",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb0edb4d8f49be14cca268cdbe",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051740edb4d8f49be14cca268cdbe",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1780edb4d8f49be14cca268cdbe",
-                        "width": 160
-                    }
-                ],
-                "name": "HI-LO",
+                "href": "https://api.spotify.com/v1/tracks/2gauzJG2UlNCWiBP5ppcNc",
+                "id": "2gauzJG2UlNCWiBP5ppcNc",
+                "is_local": false,
+                "name": "Cosmovision",
                 "popularity": 55,
-                "type": "artist",
-                "uri": "spotify:artist:0ETJQforv5OXgDgidQv9qd"
+                "preview_url": "https://p.scdn.co/mp3-preview/2387ba5c6cce9fbbad5331ecaa48af9572c9c30b?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:2gauzJG2UlNCWiBP5ppcNc"
             },
             {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "escape room",
-                    "hip hop",
-                    "indie soul",
-                    "neo soul"
-                ],
-                "href": "https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa",
-                "id": "3jK9MiCrA42lLAdMGUZpwa",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496",
-                        "width": 640
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/2tEvJY6mmREPqmxZG5PJMT"
                     },
+                    "href": "https://api.spotify.com/v1/albums/2tEvJY6mmREPqmxZG5PJMT",
+                    "id": "2tEvJY6mmREPqmxZG5PJMT",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27349d1c54d9aec4257b12376fe",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0249d1c54d9aec4257b12376fe",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485149d1c54d9aec4257b12376fe",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Nonagon Infinity",
+                    "release_date": "2016-04-29",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:2tEvJY6mmREPqmxZG5PJMT"
+                },
+                "artists": [
                     {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517496287bd47570ff13f0c01496",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17896287bd47570ff13f0c01496",
-                        "width": 160
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
                     }
                 ],
-                "name": "Anderson .Paak",
-                "popularity": 75,
-                "type": "artist",
-                "uri": "spotify:artist:3jK9MiCrA42lLAdMGUZpwa"
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 322078,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "USATO1600102"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/35e0vaczX7Ao2yFysgQUHy"
+                },
+                "href": "https://api.spotify.com/v1/tracks/35e0vaczX7Ao2yFysgQUHy",
+                "id": "35e0vaczX7Ao2yFysgQUHy",
+                "is_local": false,
+                "name": "Robot Stop",
+                "popularity": 42,
+                "preview_url": "https://p.scdn.co/mp3-preview/d5f7c775879a1fef0ecc387bf69858c1ec455af7?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:35e0vaczX7Ao2yFysgQUHy"
             },
             {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/5Ho1vKl1Uz8bJlk4vbmvmf"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "acid techno",
-                    "belgian techno",
-                    "dark techno",
-                    "electra"
-                ],
-                "href": "https://api.spotify.com/v1/artists/5Ho1vKl1Uz8bJlk4vbmvmf",
-                "id": "5Ho1vKl1Uz8bJlk4vbmvmf",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb1205b3db5d840df44815e3a3",
-                        "width": 640
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
                     },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
                     {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051741205b3db5d840df44815e3a3",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1781205b3db5d840df44815e3a3",
-                        "width": 160
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
                     }
                 ],
-                "name": "Amelie Lens",
-                "popularity": 51,
-                "type": "artist",
-                "uri": "spotify:artist:5Ho1vKl1Uz8bJlk4vbmvmf"
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 251720,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "AUTZK1900038"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/1QJTANUV0KoA62CConlQtv"
+                },
+                "href": "https://api.spotify.com/v1/tracks/1QJTANUV0KoA62CConlQtv",
+                "id": "1QJTANUV0KoA62CConlQtv",
+                "is_local": false,
+                "name": "Mars For The Rich",
+                "popularity": 42,
+                "preview_url": "https://p.scdn.co/mp3-preview/c2aed6b9109df7aa21d7e9499473114e57c3a7de?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:1QJTANUV0KoA62CConlQtv"
             },
             {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "candy pop",
-                    "pixie",
-                    "pop",
-                    "pop emo",
-                    "pop punk",
-                    "rock"
-                ],
-                "href": "https://api.spotify.com/v1/artists/74XFHRwlV6OrjEM0A2NCMF",
-                "id": "74XFHRwlV6OrjEM0A2NCMF",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebb10c34546a4ca2d7faeb8865",
-                        "width": 640
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/4oLeXFyACqeem2VImYeBFe",
+                            "id": "4oLeXFyACqeem2VImYeBFe",
+                            "name": "Fred again..",
+                            "type": "artist",
+                            "uri": "spotify:artist:4oLeXFyACqeem2VImYeBFe"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/4NGzLSTgDOfMFPEQvB5MDc"
                     },
+                    "href": "https://api.spotify.com/v1/albums/4NGzLSTgDOfMFPEQvB5MDc",
+                    "id": "4NGzLSTgDOfMFPEQvB5MDc",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273444f129bbe6366c18d533650",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02444f129bbe6366c18d533650",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851444f129bbe6366c18d533650",
+                            "width": 64
+                        }
+                    ],
+                    "name": "USB",
+                    "release_date": "2022-01-17",
+                    "release_date_precision": "day",
+                    "total_tracks": 8,
+                    "type": "album",
+                    "uri": "spotify:album:4NGzLSTgDOfMFPEQvB5MDc"
+                },
+                "artists": [
                     {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178b10c34546a4ca2d7faeb8865",
-                        "width": 160
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/4oLeXFyACqeem2VImYeBFe",
+                        "id": "4oLeXFyACqeem2VImYeBFe",
+                        "name": "Fred again..",
+                        "type": "artist",
+                        "uri": "spotify:artist:4oLeXFyACqeem2VImYeBFe"
                     }
                 ],
-                "name": "Paramore",
-                "popularity": 77,
-                "type": "artist",
-                "uri": "spotify:artist:74XFHRwlV6OrjEM0A2NCMF"
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 198805,
+                "explicit": true,
+                "external_ids": {
+                    "isrc": "GBAHS2200844"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/74yA2S6c71vhUvfh8VkCBY"
+                },
+                "href": "https://api.spotify.com/v1/tracks/74yA2S6c71vhUvfh8VkCBY",
+                "id": "74yA2S6c71vhUvfh8VkCBY",
+                "is_local": false,
+                "name": "Jungle",
+                "popularity": 70,
+                "preview_url": "https://p.scdn.co/mp3-preview/f8da910888cbaa1a76ecec90b5318af09c94e2a4?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 4,
+                "type": "track",
+                "uri": "spotify:track:74yA2S6c71vhUvfh8VkCBY"
             },
             {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 0
-                },
-                "genres": [
-                    "garage rock",
-                    "modern rock",
-                    "permanent wave",
-                    "rock",
-                    "sheffield indie"
-                ],
-                "href": "https://api.spotify.com/v1/artists/7Ln80lUS6He07XvHI8qqHH",
-                "id": "7Ln80lUS6He07XvHI8qqHH",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
-                        "width": 640
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
                     },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
                     {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1787da39dea0a72f581535fb11f",
-                        "width": 160
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
                     }
                 ],
-                "name": "Arctic Monkeys",
-                "popularity": 84,
-                "type": "artist",
-                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 159080,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "AUTZK1900039"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/0YrfyNY9ERFD3cqzzBANnN"
+                },
+                "href": "https://api.spotify.com/v1/tracks/0YrfyNY9ERFD3cqzzBANnN",
+                "id": "0YrfyNY9ERFD3cqzzBANnN",
+                "is_local": false,
+                "name": "Organ Farmer",
+                "popularity": 37,
+                "preview_url": "https://p.scdn.co/mp3-preview/79bb3cbf6f246540e4a5d47b66ab9d28ed97d967?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 3,
+                "type": "track",
+                "uri": "spotify:track:0YrfyNY9ERFD3cqzzBANnN"
+            },
+            {
+                "album": {
+                    "album_type": "SINGLE",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1lJhME1ZpzsEa5M0wW6Mso"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/1lJhME1ZpzsEa5M0wW6Mso",
+                            "id": "1lJhME1ZpzsEa5M0wW6Mso",
+                            "name": "Charlotte de Witte",
+                            "type": "artist",
+                            "uri": "spotify:artist:1lJhME1ZpzsEa5M0wW6Mso"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/0apCw1VDY8LhLH5YHfKOZ5"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/0apCw1VDY8LhLH5YHfKOZ5",
+                    "id": "0apCw1VDY8LhLH5YHfKOZ5",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273cc130721a4f6b91a6594a1ad",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02cc130721a4f6b91a6594a1ad",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851cc130721a4f6b91a6594a1ad",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Formula EP",
+                    "release_date": "2021-04-30",
+                    "release_date_precision": "day",
+                    "total_tracks": 3,
+                    "type": "album",
+                    "uri": "spotify:album:0apCw1VDY8LhLH5YHfKOZ5"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1lJhME1ZpzsEa5M0wW6Mso"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1lJhME1ZpzsEa5M0wW6Mso",
+                        "id": "1lJhME1ZpzsEa5M0wW6Mso",
+                        "name": "Charlotte de Witte",
+                        "type": "artist",
+                        "uri": "spotify:artist:1lJhME1ZpzsEa5M0wW6Mso"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 433971,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "BE4JP2000015"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/0TtgKq96j4bpE5UQUDXrwH"
+                },
+                "href": "https://api.spotify.com/v1/tracks/0TtgKq96j4bpE5UQUDXrwH",
+                "id": "0TtgKq96j4bpE5UQUDXrwH",
+                "is_local": false,
+                "name": "Doppler",
+                "popularity": 60,
+                "preview_url": "https://p.scdn.co/mp3-preview/34dab9b80126932e086f8b974b9be7d271b6d2e2?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:0TtgKq96j4bpE5UQUDXrwH"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                            "id": "278ZYwGhdK6QTzE3MFePnP",
+                            "name": "Trivium",
+                            "type": "artist",
+                            "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/3qq44o8Qqvz5JQ7b5AevLT"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/3qq44o8Qqvz5JQ7b5AevLT",
+                    "id": "3qq44o8Qqvz5JQ7b5AevLT",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27349297ff523b7098a50195711",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0249297ff523b7098a50195711",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485149297ff523b7098a50195711",
+                            "width": 64
+                        }
+                    ],
+                    "name": "The Sin and the Sentence",
+                    "release_date": "2017-10-20",
+                    "release_date_precision": "day",
+                    "total_tracks": 11,
+                    "type": "album",
+                    "uri": "spotify:album:3qq44o8Qqvz5JQ7b5AevLT"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                        "id": "278ZYwGhdK6QTzE3MFePnP",
+                        "name": "Trivium",
+                        "type": "artist",
+                        "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 437426,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "NLA321700262"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/2CSpiBpyXR0n5uWdjptqhP"
+                },
+                "href": "https://api.spotify.com/v1/tracks/2CSpiBpyXR0n5uWdjptqhP",
+                "id": "2CSpiBpyXR0n5uWdjptqhP",
+                "is_local": false,
+                "name": "The Revanchist",
+                "popularity": 40,
+                "preview_url": "https://p.scdn.co/mp3-preview/01112a1f1210222552aa93a2ca6a79b2b88c72f3?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 10,
+                "type": "track",
+                "uri": "spotify:track:2CSpiBpyXR0n5uWdjptqhP"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 191320,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "AUTZK1900042"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/1foXCfTj6fUc6EwdUTYyoL"
+                },
+                "href": "https://api.spotify.com/v1/tracks/1foXCfTj6fUc6EwdUTYyoL",
+                "id": "1foXCfTj6fUc6EwdUTYyoL",
+                "is_local": false,
+                "name": "Perihelion",
+                "popularity": 39,
+                "preview_url": "https://p.scdn.co/mp3-preview/bf0e147441498d8dde6ffb8760539d09b9e20cd9?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 6,
+                "type": "track",
+                "uri": "spotify:track:1foXCfTj6fUc6EwdUTYyoL"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                            "id": "278ZYwGhdK6QTzE3MFePnP",
+                            "name": "Trivium",
+                            "type": "artist",
+                            "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/0aXIJYbWk4u41iJmoJmp8y"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/0aXIJYbWk4u41iJmoJmp8y",
+                    "id": "0aXIJYbWk4u41iJmoJmp8y",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273f11a218563f0edfa7940fc94",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02f11a218563f0edfa7940fc94",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851f11a218563f0edfa7940fc94",
+                            "width": 64
+                        }
+                    ],
+                    "name": "What The Dead Men Say",
+                    "release_date": "2020-04-24",
+                    "release_date_precision": "day",
+                    "total_tracks": 10,
+                    "type": "album",
+                    "uri": "spotify:album:0aXIJYbWk4u41iJmoJmp8y"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                        "id": "278ZYwGhdK6QTzE3MFePnP",
+                        "name": "Trivium",
+                        "type": "artist",
+                        "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 204570,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "NLA322000014"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/1jo4t3gX4wXdSwotsH9J5u"
+                },
+                "href": "https://api.spotify.com/v1/tracks/1jo4t3gX4wXdSwotsH9J5u",
+                "id": "1jo4t3gX4wXdSwotsH9J5u",
+                "is_local": false,
+                "name": "Scattering The Ashes",
+                "popularity": 41,
+                "preview_url": "https://p.scdn.co/mp3-preview/e689511628f8d7832169bb25d1031484d218d70b?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 8,
+                "type": "track",
+                "uri": "spotify:track:1jo4t3gX4wXdSwotsH9J5u"
+            },
+            {
+                "album": {
+                    "album_type": "SINGLE",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
+                            "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                            "name": "Doja Cat",
+                            "type": "artist",
+                            "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/54dZypaXHAIDzBe9ujAZ63"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/54dZypaXHAIDzBe9ujAZ63",
+                    "id": "54dZypaXHAIDzBe9ujAZ63",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2737acee948ecac8380c1b6ce30",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e027acee948ecac8380c1b6ce30",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048517acee948ecac8380c1b6ce30",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Paint The Town Red",
+                    "release_date": "2023-08-04",
+                    "release_date_precision": "day",
+                    "total_tracks": 1,
+                    "type": "album",
+                    "uri": "spotify:album:54dZypaXHAIDzBe9ujAZ63"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
+                        "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                        "name": "Doja Cat",
+                        "type": "artist",
+                        "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 231750,
+                "explicit": true,
+                "external_ids": {
+                    "isrc": "USRC12300907"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/2IGMVunIBsBLtEQyoI1Mu7"
+                },
+                "href": "https://api.spotify.com/v1/tracks/2IGMVunIBsBLtEQyoI1Mu7",
+                "id": "2IGMVunIBsBLtEQyoI1Mu7",
+                "is_local": false,
+                "name": "Paint The Town Red",
+                "popularity": 95,
+                "preview_url": "https://p.scdn.co/mp3-preview/1d4dc1cd67ba78afec8cfb3e5258a9ab9b707dd8?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:2IGMVunIBsBLtEQyoI1Mu7"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                            "id": "278ZYwGhdK6QTzE3MFePnP",
+                            "name": "Trivium",
+                            "type": "artist",
+                            "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/0aXIJYbWk4u41iJmoJmp8y"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/0aXIJYbWk4u41iJmoJmp8y",
+                    "id": "0aXIJYbWk4u41iJmoJmp8y",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273f11a218563f0edfa7940fc94",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02f11a218563f0edfa7940fc94",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851f11a218563f0edfa7940fc94",
+                            "width": 64
+                        }
+                    ],
+                    "name": "What The Dead Men Say",
+                    "release_date": "2020-04-24",
+                    "release_date_precision": "day",
+                    "total_tracks": 10,
+                    "type": "album",
+                    "uri": "spotify:album:0aXIJYbWk4u41iJmoJmp8y"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                        "id": "278ZYwGhdK6QTzE3MFePnP",
+                        "name": "Trivium",
+                        "type": "artist",
+                        "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 285872,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "NLA322000015"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/3hsl6kpUZAkwrNf2NUFUI6"
+                },
+                "href": "https://api.spotify.com/v1/tracks/3hsl6kpUZAkwrNf2NUFUI6",
+                "id": "3hsl6kpUZAkwrNf2NUFUI6",
+                "is_local": false,
+                "name": "Bending The Arc To Fear",
+                "popularity": 37,
+                "preview_url": "https://p.scdn.co/mp3-preview/9094ff76e072a2af89df804cce028170d6173c25?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 9,
+                "type": "track",
+                "uri": "spotify:track:3hsl6kpUZAkwrNf2NUFUI6"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 403333,
+                "explicit": true,
+                "external_ids": {
+                    "isrc": "AUTZK1900040"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/42RW3Ip0sVgX7pObCDwnHg"
+                },
+                "href": "https://api.spotify.com/v1/tracks/42RW3Ip0sVgX7pObCDwnHg",
+                "id": "42RW3Ip0sVgX7pObCDwnHg",
+                "is_local": false,
+                "name": "Superbug",
+                "popularity": 36,
+                "preview_url": "https://p.scdn.co/mp3-preview/6522c68822037d64c4fb2ba2c960d133a367413a?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 4,
+                "type": "track",
+                "uri": "spotify:track:42RW3Ip0sVgX7pObCDwnHg"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/2tEvJY6mmREPqmxZG5PJMT"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/2tEvJY6mmREPqmxZG5PJMT",
+                    "id": "2tEvJY6mmREPqmxZG5PJMT",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27349d1c54d9aec4257b12376fe",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0249d1c54d9aec4257b12376fe",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485149d1c54d9aec4257b12376fe",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Nonagon Infinity",
+                    "release_date": "2016-04-29",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:2tEvJY6mmREPqmxZG5PJMT"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 294839,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "USATO1600103"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/5bEXgmRIUDSDwvy86IFD3r"
+                },
+                "href": "https://api.spotify.com/v1/tracks/5bEXgmRIUDSDwvy86IFD3r",
+                "id": "5bEXgmRIUDSDwvy86IFD3r",
+                "is_local": false,
+                "name": "Big Fig Wasp",
+                "popularity": 38,
+                "preview_url": "https://p.scdn.co/mp3-preview/940f28cbf12b574c3b2eb62f978c23981042f7cc?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:5bEXgmRIUDSDwvy86IFD3r"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 200586,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "AUTZK1900041"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/5mEJBzVBXj5XkHmQATh1KM"
+                },
+                "href": "https://api.spotify.com/v1/tracks/5mEJBzVBXj5XkHmQATh1KM",
+                "id": "5mEJBzVBXj5XkHmQATh1KM",
+                "is_local": false,
+                "name": "Venusian 1",
+                "popularity": 36,
+                "preview_url": "https://p.scdn.co/mp3-preview/2158d0ceb18221f85e4f92be490fbd1cb1a7efe4?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 5,
+                "type": "track",
+                "uri": "spotify:track:5mEJBzVBXj5XkHmQATh1KM"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0XNa1vTidXlvJ2gHSsRi4A"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0XNa1vTidXlvJ2gHSsRi4A",
+                            "id": "0XNa1vTidXlvJ2gHSsRi4A",
+                            "name": "Franz Ferdinand",
+                            "type": "artist",
+                            "uri": "spotify:artist:0XNa1vTidXlvJ2gHSsRi4A"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/3GNG4NPXfTeIGYjZ2FpS6P"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/3GNG4NPXfTeIGYjZ2FpS6P",
+                    "id": "3GNG4NPXfTeIGYjZ2FpS6P",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27392c508bc5a40ea588bcaed38",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0292c508bc5a40ea588bcaed38",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485192c508bc5a40ea588bcaed38",
+                            "width": 64
+                        }
+                    ],
+                    "name": "You Could Have It So Much Better",
+                    "release_date": "2005-10-03",
+                    "release_date_precision": "day",
+                    "total_tracks": 13,
+                    "type": "album",
+                    "uri": "spotify:album:3GNG4NPXfTeIGYjZ2FpS6P"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/0XNa1vTidXlvJ2gHSsRi4A"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/0XNa1vTidXlvJ2gHSsRi4A",
+                        "id": "0XNa1vTidXlvJ2gHSsRi4A",
+                        "name": "Franz Ferdinand",
+                        "type": "artist",
+                        "uri": "spotify:artist:0XNa1vTidXlvJ2gHSsRi4A"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 215000,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "GBCEL0500855"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/6WrnSlcN0dzTO80mVVbBto"
+                },
+                "href": "https://api.spotify.com/v1/tracks/6WrnSlcN0dzTO80mVVbBto",
+                "id": "6WrnSlcN0dzTO80mVVbBto",
+                "is_local": false,
+                "name": "Do You Want To",
+                "popularity": 64,
+                "preview_url": "https://p.scdn.co/mp3-preview/4a6b19820cda3b99e6111bcc0383d5ed3f126e7a?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:6WrnSlcN0dzTO80mVVbBto"
+            },
+            {
+                "album": {
+                    "album_type": "COMPILATION",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                            "id": "0LyfQWJT6nXafLPZqxe9Of",
+                            "name": "Various Artists",
+                            "type": "artist",
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/0Jh7XIEQrNQAXm7a6hbJ1h"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/0Jh7XIEQrNQAXm7a6hbJ1h",
+                    "id": "0Jh7XIEQrNQAXm7a6hbJ1h",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2738e17f9583f2c3cb003a5b8f2",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e028e17f9583f2c3cb003a5b8f2",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048518e17f9583f2c3cb003a5b8f2",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Pop Music: The Modern Era 1976-1999",
+                    "release_date": "1999-10-11",
+                    "release_date_precision": "day",
+                    "total_tracks": 38,
+                    "type": "album",
+                    "uri": "spotify:album:0Jh7XIEQrNQAXm7a6hbJ1h"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6J7biCazzYhU3gM9j1wfid"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6J7biCazzYhU3gM9j1wfid",
+                        "id": "6J7biCazzYhU3gM9j1wfid",
+                        "name": "Jamiroquai",
+                        "type": "artist",
+                        "uri": "spotify:artist:6J7biCazzYhU3gM9j1wfid"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 2,
+                "duration_ms": 227840,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "GBBBL9600119"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/24SUWisv2lYQiB3bVpE1sn"
+                },
+                "href": "https://api.spotify.com/v1/tracks/24SUWisv2lYQiB3bVpE1sn",
+                "id": "24SUWisv2lYQiB3bVpE1sn",
+                "is_local": false,
+                "name": "Virtual Insanity",
+                "popularity": 64,
+                "preview_url": "https://p.scdn.co/mp3-preview/28da6162b06cb220ebdc84d12c02844f5d245799?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 14,
+                "type": "track",
+                "uri": "spotify:track:24SUWisv2lYQiB3bVpE1sn"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                            "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                            "name": "King Gizzard & The Lizard Wizard",
+                            "type": "artist",
+                            "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "CH",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "HU",
+                        "IE",
+                        "IL",
+                        "IS",
+                        "IT",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SE",
+                        "SK",
+                        "TR"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/1B12ldQwBhDeS0gIcUg0ux"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/1B12ldQwBhDeS0gIcUg0ux",
+                    "id": "1B12ldQwBhDeS0gIcUg0ux",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735fbb93470556087ec976e3df",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025fbb93470556087ec976e3df",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515fbb93470556087ec976e3df",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Infest The Rats' Nest",
+                    "release_date": "2019-08-16",
+                    "release_date_precision": "day",
+                    "total_tracks": 9,
+                    "type": "album",
+                    "uri": "spotify:album:1B12ldQwBhDeS0gIcUg0ux"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+                        "id": "6XYvaoDGE0VmRt83Jss9Sn",
+                        "name": "King Gizzard & The Lizard Wizard",
+                        "type": "artist",
+                        "uri": "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "CH",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "HU",
+                    "IE",
+                    "IL",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "PL",
+                    "PT",
+                    "RO",
+                    "SE",
+                    "SK",
+                    "TR"
+                ],
+                "disc_number": 1,
+                "duration_ms": 164386,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "AUTZK1900043"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/3EbnFYUAyv48oCXLUME0cF"
+                },
+                "href": "https://api.spotify.com/v1/tracks/3EbnFYUAyv48oCXLUME0cF",
+                "id": "3EbnFYUAyv48oCXLUME0cF",
+                "is_local": false,
+                "name": "Venusian 2",
+                "popularity": 36,
+                "preview_url": "https://p.scdn.co/mp3-preview/fe872e3083a1e2960fb50f291d06dc8ed126205c?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 7,
+                "type": "track",
+                "uri": "spotify:track:3EbnFYUAyv48oCXLUME0cF"
+            },
+            {
+                "album": {
+                    "album_type": "SINGLE",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0XNa1vTidXlvJ2gHSsRi4A"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0XNa1vTidXlvJ2gHSsRi4A",
+                            "id": "0XNa1vTidXlvJ2gHSsRi4A",
+                            "name": "Franz Ferdinand",
+                            "type": "artist",
+                            "uri": "spotify:artist:0XNa1vTidXlvJ2gHSsRi4A"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/4hUCtGcc0hRYXFhKSETlll"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/4hUCtGcc0hRYXFhKSETlll",
+                    "id": "4hUCtGcc0hRYXFhKSETlll",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27344fadeb140014c49e807c468",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0244fadeb140014c49e807c468",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485144fadeb140014c49e807c468",
+                            "width": 64
+                        }
+                    ],
+                    "name": "This fffire",
+                    "release_date": "2004-11-15",
+                    "release_date_precision": "day",
+                    "total_tracks": 2,
+                    "type": "album",
+                    "uri": "spotify:album:4hUCtGcc0hRYXFhKSETlll"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/0XNa1vTidXlvJ2gHSsRi4A"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/0XNa1vTidXlvJ2gHSsRi4A",
+                        "id": "0XNa1vTidXlvJ2gHSsRi4A",
+                        "name": "Franz Ferdinand",
+                        "type": "artist",
+                        "uri": "spotify:artist:0XNa1vTidXlvJ2gHSsRi4A"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 218080,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "GBCEL0400184"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/46gSk82duJtX3TTA182ruG"
+                },
+                "href": "https://api.spotify.com/v1/tracks/46gSk82duJtX3TTA182ruG",
+                "id": "46gSk82duJtX3TTA182ruG",
+                "is_local": false,
+                "name": "This fffire - New Version",
+                "popularity": 70,
+                "preview_url": "https://p.scdn.co/mp3-preview/0493cbf83b56abc213d99fb52c8382955a891808?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:46gSk82duJtX3TTA182ruG"
+            },
+            {
+                "album": {
+                    "album_type": "ALBUM",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                            "id": "278ZYwGhdK6QTzE3MFePnP",
+                            "name": "Trivium",
+                            "type": "artist",
+                            "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                        }
+                    ],
+                    "available_markets": [
+                        "AD",
+                        "AE",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KW",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PS",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TH",
+                        "TN",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY",
+                        "VN",
+                        "ZA"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/0aXIJYbWk4u41iJmoJmp8y"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/0aXIJYbWk4u41iJmoJmp8y",
+                    "id": "0aXIJYbWk4u41iJmoJmp8y",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273f11a218563f0edfa7940fc94",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02f11a218563f0edfa7940fc94",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851f11a218563f0edfa7940fc94",
+                            "width": 64
+                        }
+                    ],
+                    "name": "What The Dead Men Say",
+                    "release_date": "2020-04-24",
+                    "release_date_precision": "day",
+                    "total_tracks": 10,
+                    "type": "album",
+                    "uri": "spotify:album:0aXIJYbWk4u41iJmoJmp8y"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/278ZYwGhdK6QTzE3MFePnP"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/278ZYwGhdK6QTzE3MFePnP",
+                        "id": "278ZYwGhdK6QTzE3MFePnP",
+                        "name": "Trivium",
+                        "type": "artist",
+                        "uri": "spotify:artist:278ZYwGhdK6QTzE3MFePnP"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AE",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BH",
+                    "BO",
+                    "BR",
+                    "CA",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "DZ",
+                    "EC",
+                    "EE",
+                    "EG",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IL",
+                    "IN",
+                    "IS",
+                    "IT",
+                    "JO",
+                    "JP",
+                    "KW",
+                    "LB",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MA",
+                    "MC",
+                    "MT",
+                    "MX",
+                    "MY",
+                    "NI",
+                    "NL",
+                    "NO",
+                    "NZ",
+                    "OM",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PS",
+                    "PT",
+                    "PY",
+                    "QA",
+                    "RO",
+                    "SA",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TH",
+                    "TN",
+                    "TR",
+                    "TW",
+                    "US",
+                    "UY",
+                    "VN",
+                    "ZA"
+                ],
+                "disc_number": 1,
+                "duration_ms": 285522,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "NLA322000002"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/4KugBNgb6iilXInnWQrMVh"
+                },
+                "href": "https://api.spotify.com/v1/tracks/4KugBNgb6iilXInnWQrMVh",
+                "id": "4KugBNgb6iilXInnWQrMVh",
+                "is_local": false,
+                "name": "What The Dead Men Say",
+                "popularity": 50,
+                "preview_url": "https://p.scdn.co/mp3-preview/f2a053ecab39c9eeaf15e5acdbc418931176997a?cid=591d4e02e88a4e20a1daf9d59f2a46db",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:4KugBNgb6iilXInnWQrMVh"
             }
         ],
-        "total": 25,
+        "total": 50,
         "limit": 20,
         "offset": 0,
-        "href": "https://api.spotify.com/v1/me/top/artists?time_range=short_term",
-        "next": "https://api.spotify.com/v1/me/top/artists?limit=20&offset=20&time_range=short_term",
+        "href": "https://api.spotify.com/v1/me/top/tracks?time_range=short_term",
+        "next": "https://api.spotify.com/v1/me/top/tracks?limit=20&offset=20&time_range=short_term",
         "previous": null
     },
-    "dataUpdatedAt": 1693441999989,
+    "dataUpdatedAt": 1693442000001,
     "error": null,
     "errorUpdatedAt": 0,
     "failureCount": 0,

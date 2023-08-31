@@ -17,7 +17,7 @@ export interface Item {
     images: Image[];
     name: string;
     popularity: number;
-    type: Type;
+    type: string;
     uri: string;
 }
 

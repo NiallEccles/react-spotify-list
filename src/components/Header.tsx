@@ -1,4 +1,4 @@
-import { Me } from "../types/me";
+import { Me } from "../types/Me"
 
 export const Header: React.FC<{data: Me}> = ({data}) => {
     return (
