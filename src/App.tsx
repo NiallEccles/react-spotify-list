@@ -18,11 +18,13 @@ function App() {
   }, [code]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/auth" element={<Auth />} />
-      <Route path="/top" element={<Top />} />
-    </Routes>
+    <div className='container'>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/top" element={<Top />} />
+      </Routes>
+    </div>
   )
 }
 
