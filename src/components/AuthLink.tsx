@@ -10,6 +10,6 @@ export const AuthLink = () => {
       setAuthUrl(url);
     }, [url]);
     return (
-        authUrl && <a className="block text-white text-2xl p-2 text-center rounded-full bg-black" href={authUrl}><h3><FormattedMessage id="loginWithSpotify" /></h3></a>
+        authUrl && <div className="h-full flex flex-row items-center"><a className="block text-white text-2xl p-2 h-12 text-center rounded-full w-full bg-black" href={authUrl}><h3><FormattedMessage id="loginWithSpotify" /></h3></a></div>
     )
 }
