@@ -11,19 +11,20 @@
 
 body {
     height: 100vh;
+    font-family: 'Inter', sans-serif;
 }
 
-h2 {
+/* h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 800;
-}
+} */
 
-h3 {
+/* h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-style: italic;
     margin-bottom: 0;
-}
+} */
 
 /* section {
     display: flex;
