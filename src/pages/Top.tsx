@@ -5,9 +5,12 @@ import { TopSongs } from "../components/TopSongs"
 import { query } from "../queries"
 import { useStore } from "../state"
 import { SPOTIFY } from "../constants";
+import { useNavigate } from "react-router-dom"
 
 export const Top = () => {
     const { access_token } = useStore();
+
+    const navigate = useNavigate();
 
     const getHeaders = (accessToken: string) => {
         return {
@@ -28,6 +31,8 @@ export const Top = () => {
     ]);
 
     console.log(me, topArtists, topTracks);
+
+    if(me.isLoading === false && me.data.error) navigate('/', { replace: true });
     return (
         <>
             {me.data ? <Header data={me.data}/> : ''}
