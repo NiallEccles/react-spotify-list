@@ -7,11 +7,14 @@
     --s2: 0.5em;
     --s3: 0.75em;
     --s4: 1em;
+    --brand: rgb(255 197 222);
 }
 
 body {
     height: 100vh;
     font-family: 'Inter', sans-serif;
+    background: url('backgroundGradient.svg');
+    background-size: cover;
 }
 
 /* h2 {
@@ -61,4 +64,5 @@ body {
     /* height: calc(100vh - 0.25em * 2); */
     height: 100vh;
     padding: var(--s3);
+    margin: auto;
 }
