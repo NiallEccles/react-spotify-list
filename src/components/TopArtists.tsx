@@ -4,8 +4,8 @@ import { Item } from "../types/TopArtists";
 export const TopArtists: React.FC<{items: Item[]}> = ({items}) => {
     return (
         <section className="mb-10">
-            <h3 className="text-3xl mb-5 italic font-bold"><FormattedMessage id="topArtists" /></h3>
-            <ol>
+            <h3 className="text-3xl py-2 pl-2 italic font-bold bg-rose-200 border-black border-2 border-b-0 hover:bg-rose-300 transition-colors ease-in-out"><FormattedMessage id="topArtists" /></h3>
+            <ol className="p-5 bg-rose-200 border-black border-2">
                 {
                     items && items.map((artist: Item, index: number) => {
                         return index < 10 ? 
