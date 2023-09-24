@@ -1,10 +1,10 @@
-import { toPng } from 'html-to-image';
+import { toJpeg } from 'html-to-image';
 
 export const convertToImage = (HTMLElement: React.MutableRefObject<HTMLElement | null>, name: string) => {
     const element = HTMLElement.current;
 
     if (element) {
-        toPng(element, { cacheBust: true })
+        toJpeg(element, { cacheBust: true })
             .then((dataUrl) => {
                 const link = document.createElement("a");
                 link.download = `${name}.png`;
