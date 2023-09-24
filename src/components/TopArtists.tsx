@@ -1,25 +1,25 @@
 import { FormattedMessage } from "react-intl";
 import { Item } from "../types/TopArtists";
 import { useRef } from "react";
-import { convertToImage } from "../utils/convertToImage";
+// import { convertToImage } from "../utils/convertToImage";
 import { Download } from "lucide-react";
-// import { captureElementAsImage } from "../utils/captureElementAsImage";
+import { captureElementAsImage } from "../utils/captureElementAsImage";
 // import { useToPng } from '@hugocxl/react-to-image';
 
 export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     const elementRef = useRef<HTMLElement | null>(null);
 
     // const handleClick = () => captureElementAsImage(elementRef.current);
-    // const handleClick = async () => {
-    //     const imageDataURL = await captureElementAsImage(elementRef.current);
-    //     if (imageDataURL) {
-    //       const link = document.createElement('a');
-    //       link.href = imageDataURL;
-    //       link.download = 'captured_image.png';
-    //       link.click();
-    //     }
-    //   };
-    const handleClick = () => convertToImage(elementRef, 'Top Artists');
+    const handleClick = async () => {
+        const imageDataURL = await captureElementAsImage(elementRef.current);
+        if (imageDataURL) {
+          const link = document.createElement('a');
+          link.href = imageDataURL;
+          link.download = 'captured_image.png';
+          link.click();
+        }
+      };
+    // const handleClick = () => convertToImage(elementRef, 'Top Artists');
     // const handleClick = () => toCanvas(elementRef);
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
