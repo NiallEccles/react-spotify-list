@@ -8,9 +8,9 @@ export const convertToImage = async (HTMLElement: React.MutableRefObject<HTMLEle
     if (element) {
         await toPng(element, { cacheBust: true })
             .then((dataUrl) => {
-                // new Promise((resolve)=>{
-                //     setTimeout(resolve, 500);
-                // })
+                new Promise((resolve)=>{
+                    setTimeout(resolve, 1100);
+                })
                 const link = document.createElement("a");
                 link.download = `${new Date().toLocaleTimeString()}.png`;
                 link.href = dataUrl;
