@@ -2,6 +2,8 @@ import { toJpeg } from 'html-to-image';
 
 export const convertToImage = (HTMLElement: React.MutableRefObject<HTMLElement | null>, name: string) => {
     const element = HTMLElement.current;
+    console.log(name);
+    
 
     if (element) {
         toJpeg(element, { cacheBust: true })
@@ -10,7 +12,7 @@ export const convertToImage = (HTMLElement: React.MutableRefObject<HTMLElement |
                     setTimeout(resolve, 500);
                 })
                 const link = document.createElement("a");
-                link.download = `${name}.png`;
+                link.download = `${new Date().toLocaleTimeString()}.png`;
                 link.href = dataUrl;
                 link.click();
             })
