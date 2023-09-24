@@ -3,7 +3,7 @@ import { Item } from "../types/TopArtists";
 // import { useRef } from "react";
 // import { convertToImage } from "../utils/convertToImage";
 import { Download } from "lucide-react";
-import { useToJpeg } from '@hugocxl/react-to-image';
+import { useToPng } from '@hugocxl/react-to-image';
 
 export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     // const elementRef = useRef<HTMLElement | null>(null);
@@ -12,7 +12,7 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     // const handleClick = () => toCanvas(elementRef);
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [_, convert, ref] = useToJpeg<HTMLDivElement>({
+    const [_, convert, ref] = useToPng<HTMLDivElement>({
         quality: 1,
         cacheBust: true,
         onSuccess: data => {
