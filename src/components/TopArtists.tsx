@@ -14,9 +14,10 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [_, convert, ref] = useToJpeg<HTMLDivElement>({
         quality: 1,
+        cacheBust: true,
         onSuccess: data => {
           const link = document.createElement('a');
-          link.download = 'TopArtistsNew.';
+          link.download = 'TopArtistsNew';
           link.href = data;
           link.click();
         }
