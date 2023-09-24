@@ -6,6 +6,9 @@ export const convertToImage = (HTMLElement: React.MutableRefObject<HTMLElement |
     if (element) {
         toJpeg(element, { cacheBust: true })
             .then((dataUrl) => {
+                new Promise((resolve)=>{
+                    setTimeout(resolve, 500);
+                })
                 const link = document.createElement("a");
                 link.download = `${name}.png`;
                 link.href = dataUrl;
