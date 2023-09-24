@@ -4,7 +4,7 @@ export const convertToImage = (HTMLElement: React.MutableRefObject<HTMLElement |
     const element = HTMLElement.current;
 
     if (element) {
-        toPng(element, { cacheBust: false })
+        toPng(element, { cacheBust: true })
             .then((dataUrl) => {
                 const link = document.createElement("a");
                 link.download = `${name}.png`;
