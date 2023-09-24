@@ -1,16 +1,16 @@
-import { toJpeg } from 'html-to-image';
+import { toPng } from 'html-to-image';
 
-export const convertToImage = (HTMLElement: React.MutableRefObject<HTMLElement | null>, name: string) => {
+export const convertToImage = async (HTMLElement: React.MutableRefObject<HTMLElement | null>, name: string) => {
     const element = HTMLElement.current;
     console.log(name);
     
 
     if (element) {
-        toJpeg(element, { cacheBust: true })
+        await toPng(element, { cacheBust: true })
             .then((dataUrl) => {
-                new Promise((resolve)=>{
-                    setTimeout(resolve, 500);
-                })
+                // new Promise((resolve)=>{
+                //     setTimeout(resolve, 500);
+                // })
                 const link = document.createElement("a");
                 link.download = `${new Date().toLocaleTimeString()}.png`;
                 link.href = dataUrl;
