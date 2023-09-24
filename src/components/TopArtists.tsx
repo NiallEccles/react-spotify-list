@@ -3,7 +3,7 @@ import { Item } from "../types/TopArtists";
 import { useRef } from "react";
 import { convertToImage } from "../utils/convertToImage";
 import { Download } from "lucide-react";
-import { useToPng } from '@hugocxl/react-to-image';
+// import { useToPng } from '@hugocxl/react-to-image';
 
 export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     const elementRef = useRef<HTMLElement | null>(null);
@@ -12,15 +12,15 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     // const handleClick = () => toCanvas(elementRef);
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [_, convert, ref] = useToPng<HTMLDivElement>({
-        quality: 1,
-        onSuccess: data => {
-          const link = document.createElement('a');
-          link.download = 'TopArtistsNew.jpeg';
-          link.href = data;
-          link.click();
-        }
-      });
+    // const [_, convert, ref] = useToPng<HTMLDivElement>({
+    //     quality: 1,
+    //     onSuccess: data => {
+    //       const link = document.createElement('a');
+    //       link.download = 'TopArtistsNew.jpeg';
+    //       link.href = data;
+    //       link.click();
+    //     }
+    //   });
 
     return (
         <section className="mb-10" ref={elementRef}>
