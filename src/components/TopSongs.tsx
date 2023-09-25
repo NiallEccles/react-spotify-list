@@ -5,10 +5,9 @@ import { convertToImage } from "../utils/convertToImage";
 import { Download } from "lucide-react";
 
 export const TopSongs: React.FC<{ items: Item[] }> = ({ items }) => {
-
     const elementRef = useRef<HTMLElement | null>(null);
 
-    const handleClick = () => convertToImage(elementRef, 'Top Songs');
+    const handleClick = () => convertToImage(elementRef, 'Top Artists');
 
     return (
         <section className="pb-10" ref={elementRef}>
