@@ -3,8 +3,6 @@ import { toPng } from 'html-to-image';
 
 export const convertToImage = async (HTMLElement: React.MutableRefObject<HTMLElement | null>, name: string) => {
     const element = HTMLElement.current;
-    console.log(name);
-    
 
     if (element) {
         // await toBlob(element).then((blob) => {
@@ -20,7 +18,7 @@ export const convertToImage = async (HTMLElement: React.MutableRefObject<HTMLEle
         await toPng(element, { cacheBust: true })
         .then((dataUrl) => {
             const link = document.createElement("a");
-            link.download = `${new Date().toLocaleTimeString()}.png`;
+            link.download = `${name}.png`;
             link.href = dataUrl;
             link.click();
         })
