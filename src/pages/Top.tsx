@@ -6,6 +6,7 @@ import { query } from "../queries"
 import { useStore } from "../state"
 import { SPOTIFY } from "../constants";
 import { useNavigate } from "react-router-dom"
+import { Error } from "../components/Error"
 
 export const Top = () => {
     const { access_token } = useStore();
@@ -32,12 +33,18 @@ export const Top = () => {
 
     console.log(me, topArtists, topTracks);
 
-    if(me.isLoading === false && me.data.error) navigate('/', { replace: true });
+    // if(me.isLoading === false && me.data?.error) navigate('/', { replace: true });
+
+    if(!me.isLoading && me.isError) navigate('/', { replace: true });
     return (
         <>
-            {me.data ? <Header data={me.data}/> : ''}
-            {topArtists.data ? <TopArtists items={topArtists.data.items}/> : ''}
-            {topTracks.data ? <TopSongs items={topTracks.data.items}/> : ''}
+            {me?.data ? <Header data={me.data}/> : ''}
+
+            {!topArtists.isLoading && topArtists.data ? <TopArtists items={topArtists.data.items}/> : ''}
+            {!topArtists.isLoading && topArtists.error ? <Error error={String(topArtists.error)}/> : ''}
+
+            {!topTracks.isLoading && topTracks.data ? <TopSongs items={topTracks.data.items}/> : ''}
+            {!topTracks.isLoading && topTracks.error ? <Error error={String(topTracks.error)}/> : ''}
         </>
     )
 }
