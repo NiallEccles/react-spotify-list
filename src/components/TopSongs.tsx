@@ -2,20 +2,33 @@ import { FormattedMessage } from "react-intl";
 import { Item } from "../types/TopTracks";
 import { useRef } from "react";
 import { convertToImage } from "../utils/convertToImage";
-import { Download } from "lucide-react";
+import { Download, Share2 } from "lucide-react";
+import { downloadImage } from "../utils/downloadImage";
+import { shareImage } from "../utils/shareImage";
 
 export const TopSongs: React.FC<{ items: Item[] }> = ({ items }) => {
     const elementRef = useRef<HTMLElement | null>(null);
 
-    const handleClick = () => convertToImage(elementRef, 'Top Artists');
+    const handleDownload = () => 
+    convertToImage(elementRef).then(imageData => {
+        downloadImage(imageData, 'Top Artists');
+    });
+const handleShare = () => {
+    convertToImage(elementRef).then(imageData => {
+        shareImage(imageData, 'Top Artists');
+    }).catch(error => console.log(error));
+};
 
     return (
         <section className="pb-10" ref={elementRef}>
             <h3 className="text-3xl p-2 italic font-bold flex justify-between bg-rose-200 border-black border-2 border-b-0 hover:bg-rose-300 transition-colors ease-in-out">
                 <FormattedMessage id="topTracks" />
-                <span className="w-8 h-8" onClick={handleClick}>
-                    <Download width={'100%'} height={'100%'} />
-                </span>
+                <button className="w-8 h-8" onClick={handleDownload}>
+                        <Download width={'100%'} height={'100%'} />
+                    </button>
+                    <button className="w-8 h-8" onClick={handleShare}>
+                        <Share2 width={'100%'} height={'100%'}/>
+                    </button>
             </h3>
             <ol className="py-5 bg-rose-200 border-black border-2">
                 {
