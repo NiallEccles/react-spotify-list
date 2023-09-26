@@ -8,7 +8,6 @@ export const shareImage = async (image: string, name: string) => {
 
     navigator.share({
         files: [file],
-        title: name,
     })
         .then(() => console.log('Share was successful.'))
         .catch((error) => console.log('Sharing failed', error));
