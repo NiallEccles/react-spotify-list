@@ -11,8 +11,8 @@ export const Share: React.FC = () => {
                 text: 'Check out web.dev.',
                 url: 'https://web.dev/',
             })
-                .then(() => console.log('Successful share'))
-                .catch((error) => console.log('Error sharing', error));
+            .then(() => console.log('Successful share'))
+            .catch((error) => console.log('Error sharing', error));
         }
     }
     return (
