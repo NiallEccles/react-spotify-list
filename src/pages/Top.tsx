@@ -31,7 +31,7 @@ export const Top = () => {
         { queryKey: ['top tracks', 3], queryFn: getTopTracks, staleTime: Infinity}
     ]);
 
-    console.log(me, topArtists, topTracks);
+    // console.log(me, topArtists, topTracks);
 
     // if(me.isLoading === false && me.data?.error) navigate('/', { replace: true });
 

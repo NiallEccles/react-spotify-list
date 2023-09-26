@@ -41,7 +41,7 @@ export const Auth = () => {
             if (status === "success") {
                 console.log('GOT DATA');
                 const { access_token } = data;
-                console.log(access_token);
+                // console.log(access_token);
                 setAccessToken(access_token);
                 navigate('/top', { replace: true })
             } else {
