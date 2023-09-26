@@ -1,6 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import { Item } from "../types/TopArtists";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { convertToImage } from "../utils/convertToImage";
 import { Download } from "lucide-react";
 import { Share } from "./Share";
@@ -8,7 +8,10 @@ import { Share } from "./Share";
 export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     const elementRef = useRef<HTMLElement | null>(null);
 
-    const handleClick = () => convertToImage(elementRef, 'Top Artists');
+    // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+    const [image, setImage] = useState<any>();
+
+    const handleClick = () => setImage(convertToImage(elementRef, 'Top Artists'));
 
     return (
         <section className="mb-10" ref={elementRef}>
@@ -18,7 +21,7 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
                     <span className="w-8 h-8" onClick={handleClick}>
                         <Download width={'100%'} height={'100%'} />
                     </span>
-                    <Share/>
+                    <Share image={image}/>
                 </div>
             </h3>
             <ol className="py-5 bg-rose-200 border-black border-2">
