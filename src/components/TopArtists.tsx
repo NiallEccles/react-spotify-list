@@ -3,6 +3,7 @@ import { Item } from "../types/TopArtists";
 import { useRef } from "react";
 import { convertToImage } from "../utils/convertToImage";
 import { Download } from "lucide-react";
+import { Share } from "./Share";
 
 export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
     const elementRef = useRef<HTMLElement | null>(null);
@@ -13,9 +14,12 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
         <section className="mb-10" ref={elementRef}>
             <h3 className="text-3xl p-2 italic font-bold flex justify-between bg-rose-200 border-black border-2 border-b-0 hover:bg-rose-300 transition-colors ease-in-out">
                 <FormattedMessage id="topArtists" />
-                <span className="w-8 h-8" onClick={handleClick}>
-                    <Download width={'100%'} height={'100%'} />
-                </span>
+                <div className="flex flex-row w-20 justify-between">
+                    <span className="w-8 h-8" onClick={handleClick}>
+                        <Download width={'100%'} height={'100%'} />
+                    </span>
+                    <Share/>
+                </div>
             </h3>
             <ol className="py-5 bg-rose-200 border-black border-2">
                 {
