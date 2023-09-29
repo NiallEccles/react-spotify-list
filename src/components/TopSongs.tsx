@@ -23,12 +23,15 @@ const handleShare = () => {
         <section className="pb-10" ref={elementRef}>
             <h3 className="text-3xl p-2 italic font-bold flex justify-between bg-rose-200 border-black border-2 border-b-0 hover:bg-rose-300 transition-colors ease-in-out">
                 <FormattedMessage id="topTracks" />
-                <button className="w-8 h-8" onClick={handleDownload}>
+                <div className="flex flex-row w-20 justify-between">
+                    <button className="w-8 h-8" onClick={handleDownload}>
                         <Download width={'100%'} height={'100%'} />
                     </button>
                     <button className="w-8 h-8" onClick={handleShare}>
+                        {/* <Share image={image}/> */}
                         <Share2 width={'100%'} height={'100%'}/>
                     </button>
+                </div>
             </h3>
             <ol className="py-5 bg-rose-200 border-black border-2">
                 {
