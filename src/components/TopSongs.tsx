@@ -43,8 +43,10 @@ const handleShare = () => {
                                     <img className="w-14 h-14 object-fill border-black border-2" src={track.album.images[2].url} alt="" />
                                 </div>
                                 <div className="w-full ml-4 truncate">
-                                    <h4 className="text-xl font-bold pr-3 block w-full truncate">{track.name}</h4>
-                                    <h4 className="italic text-xl font-bold truncate">{track.artists.map(artists => artists.name).join(', ')}</h4>
+                                    <a href={track.external_urls.spotify} className="hover:underline">
+                                        <h4 className="text-xl font-bold pr-3 block w-full truncate">{track.name}</h4>
+                                        <h4 className="italic text-xl font-bold truncate">{track.artists.map(artists => artists.name).join(', ')}</h4>
+                                    </a>
                                 </div>
                             </li> : null
                     })

@@ -52,7 +52,9 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
                                     <img className="w-14 h-14 object-fill border-black border-2 bg-cover" src={artist.images[2].url} alt="" crossOrigin="anonymous" />
                                 </div>
                                 <div className="flex flex-col justify-center w-full ml-4 truncate">
-                                    <h4 className="w-60 text-xl font-bold truncate">{artist.name}</h4>
+                                    <a href={artist.external_urls.spotify} className="hover:underline">  
+                                        <h4 className="w-60 text-xl font-bold truncate">{artist.name}</h4>
+                                    </a>
                                 </div>
                             </li> : null
                     })
