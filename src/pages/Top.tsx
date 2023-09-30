@@ -7,6 +7,7 @@ import { useStore } from "../state"
 import { SPOTIFY } from "../constants";
 import { useNavigate } from "react-router-dom"
 import { Error } from "../components/Error"
+import { Loading } from "../components/Loading"
 
 export const Top = () => {
     const { access_token } = useStore();
@@ -26,25 +27,27 @@ export const Top = () => {
     const getTopTracks = async () => query(SPOTIFY.API.TOP_TRACKS, getHeaders(access_token ? access_token : ''));
 
     const [me, topArtists, topTracks] = useQueries([
-        { queryKey: ['me', 1], queryFn: getMe, staleTime: Infinity},
-        { queryKey: ['top artists', 2], queryFn: getTopArtists, staleTime: Infinity},
-        { queryKey: ['top tracks', 3], queryFn: getTopTracks, staleTime: Infinity}
+        { queryKey: ['me', 1], queryFn: getMe, staleTime: Infinity },
+        { queryKey: ['top artists', 2], queryFn: getTopArtists, staleTime: Infinity },
+        { queryKey: ['top tracks', 3], queryFn: getTopTracks, staleTime: Infinity }
     ]);
 
     // console.log(me, topArtists, topTracks);
 
     // if(me.isLoading === false && me.data?.error) navigate('/', { replace: true });
 
-    if(!me.isLoading && me.isError) navigate('/', { replace: true });
+    if (!me.isLoading && me.isError) navigate('/', { replace: true });
     return (
         <>
-            {me?.data ? <Header data={me.data}/> : ''}
+            {me?.data ? <Header data={me.data} /> : ''}
 
-            {!topArtists.isLoading && topArtists.data ? <TopArtists items={topArtists.data.items}/> : ''}
-            {!topArtists.isLoading && topArtists.error ? <Error error={String(topArtists.error)}/> : ''}
+            {!topArtists.isLoading && topArtists.data ? <TopArtists items={topArtists.data.items} /> : ''}
+            {topArtists.isLoading && <Loading />}
+            {!topArtists.isLoading && topArtists.error ? <Error error={String(topArtists.error)} /> : ''}
 
-            {!topTracks.isLoading && topTracks.data ? <TopSongs items={topTracks.data.items}/> : ''}
-            {!topTracks.isLoading && topTracks.error ? <Error error={String(topTracks.error)}/> : ''}
+            {!topTracks.isLoading && topTracks.data ? <TopSongs items={topTracks.data.items} /> : ''}
+            {topTracks.isLoading && <Loading />}
+            {!topTracks.isLoading && topTracks.error ? <Error error={String(topTracks.error)} /> : ''}
         </>
     )
 }
