@@ -49,6 +49,8 @@ export const Top = () => {
             {!topTracks.isLoading && topTracks.data ? <TopSongs items={topTracks.data.items} /> : ''}
             {topTracks.isLoading && <Loading />}
             {!topTracks.isLoading && topTracks.error ? <Error error={String(topTracks.error)} /> : ''}
+
+            <img className="w-40 mx-auto pb-10" src="/Spotify_Logo_RGB_White.png" alt="" />
         </>
     )
 }
