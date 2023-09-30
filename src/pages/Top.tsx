@@ -39,6 +39,7 @@ export const Top = () => {
     if (!me.isLoading && me.isError) navigate('/', { replace: true });
     return (
         <>
+            <h1 className='text-4xl mb-5 text-white font-bold'>Listur</h1>
             {me?.data ? <Header data={me.data} /> : ''}
 
             {!topArtists.isLoading && topArtists.data ? <TopArtists items={topArtists.data.items} /> : ''}
