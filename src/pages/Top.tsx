@@ -8,6 +8,7 @@ import { SPOTIFY } from "../constants";
 import { useNavigate } from "react-router-dom"
 import { Error } from "../components/Error"
 import { Loading } from "../components/Loading"
+import { RemoveAccess } from "../components/RemoveAccess"
 
 export const Top = () => {
     const { access_token } = useStore();
@@ -51,6 +52,7 @@ export const Top = () => {
             {!topTracks.isLoading && topTracks.error ? <Error error={String(topTracks.error)} /> : ''}
 
             <img className="w-40 mx-auto pb-10" src="/Spotify_Logo_RGB_White.png" alt="" />
+            <RemoveAccess/>
         </>
     )
 }
