@@ -18,11 +18,11 @@ export const Loading = () => {
                         return (
                             <div className="grid grid-cols-2 px-4 mb-3 w-full" key={i}>
                                 <div className="relative mb-3 animate-pulse">
-                                    <h4 className="w-6 h-6 absolute z-10 bg-red-400 rounded-full -right-3 -bottom-2"></h4>
+                                    <h4 className="w-6 h-6 absolute z-10 bg-red-400 rounded-full -right-8 top-1/2 -translate-y-1/2"></h4>
                                     <div className="w-14 h-14 bg-red-400"></div>
                                 </div>
-                                <div className="flex flex-col justify-center w-full ml-4 mb-5 animate-pulse">
-                                    <div className="w-full h-8 bg-red-400"></div>
+                                <div className="flex flex-col justify-center w-full ml-10 mb-5 animate-pulse">
+                                    <div className="w-11/12 h-8 bg-red-400"></div>
                                 </div>
                             </div>
                         )
