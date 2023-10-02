@@ -46,12 +46,12 @@ export const TopArtists: React.FC<{ items: Item[] }> = ({ items }) => {
                         return index < 10 ?
                             <li className="grid grid-cols-2 px-4 mb-3 w-full" key={artist.name}>
                                 <div className="relative">
-                                    <h4 className="text-xs w-6 h-6 font-bold absolute z-10 bg-white rounded-full -right-3 -bottom-2 flex items-center justify-center">#{++index}</h4>
+                                    <h4 className="text-xs w-6 h-6 font-bold absolute z-10 bg-white rounded-full -right-8 top-1/2 -translate-y-1/2 flex items-center justify-center">#{++index}</h4>
                                     {/* <img className="w-14 h-14 object-fill border-black border-2" src={artist.images[2].url} alt="" /> */}
                                     {/* <div className="w-14 h-14 object-fill border-black border-2 bg-cover" style={{backgroundImage: `url(${artist.images[2].url})`}}></div> */}
-                                    <img className="w-14 h-14 object-fill border-black border-2 bg-cover" src={artist.images[2].url} alt="" crossOrigin="anonymous" />
+                                    <img className="w-14 h-14 object-fill bg-cover" src={artist.images[2].url} alt="" crossOrigin="anonymous" />
                                 </div>
-                                <div className="flex flex-col justify-center w-full ml-4 truncate">
+                                <div className="flex flex-col justify-center w-full ml-10 truncate">
                                     <a href={artist.external_urls.spotify} className="hover:underline">  
                                         <h4 className="w-60 text-xl font-bold truncate">{artist.name}</h4>
                                     </a>

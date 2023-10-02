@@ -39,12 +39,12 @@ const handleShare = () => {
                         return index < 10 ?
                             <li className="grid grid-cols-2 px-4 mb-3 w-full" key={track.name}>
                                 <div className="relative">
-                                    <h4 className="text-xs w-6 h-6 font-bold absolute z-10 bg-white rounded-full -right-3 -bottom-2 flex items-center justify-center">#{++index}</h4>
-                                    <img className="w-14 h-14 object-fill border-black border-2" src={track.album.images[2].url} alt="" />
+                                <h4 className="text-xs w-6 h-6 font-bold absolute z-10 bg-white rounded-full -right-8 top-1/2 -translate-y-1/2 flex items-center justify-center">#{++index}</h4>
+                                    <img className="w-14 h-14 object-fill" src={track.album.images[2].url} alt="" />
                                 </div>
-                                <div className="w-full ml-4 truncate">
+                                <div className="flex flex-col justify-center w-full ml-10 truncate">
                                     <a href={track.external_urls.spotify} className="hover:underline">
-                                        <h4 className="text-xl font-bold pr-3 block w-full truncate">{track.name}</h4>
+                                        <h4 className="text-xl font-bold pr-3 block w-11/12 truncate">{track.name}</h4>
                                         <h4 className="italic text-xl font-bold truncate">{track.artists.map(artists => artists.name).join(', ')}</h4>
                                     </a>
                                 </div>
