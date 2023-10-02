@@ -10,11 +10,11 @@ export const AuthLink = () => {
     setAuthUrl(url);
   }, [url]);
   return (
-    authUrl && <div className="h-full flex flex-row items-center">
-      <a className="block text-black text-xl p-2 h-12 text-center w-full bg-rose-200 border-black border-2 hover:bg-rose-300 transition-colors ease-in-out" href={authUrl}>
-        <h3>
-          <FormattedMessage id="loginWithSpotify" />
-        </h3>
-      </a></div>
+    authUrl &&
+    <a className="block text-black text-xl p-2 h-12 text-center w-full bg-rose-200 border-black border-2 hover:bg-rose-300 transition-colors ease-in-out" href={authUrl}>
+      <h3>
+        <FormattedMessage id="loginWithSpotify" />
+      </h3>
+    </a>
   )
 }
