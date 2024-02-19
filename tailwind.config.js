@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
-        '2': '3.5rem 1fr'
+        '2': '2.5rem 1fr'
       }
     },
   },
