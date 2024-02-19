@@ -18,6 +18,11 @@ export const messages: LanguageTranslation = {
     'pt-BR': {
         topArtists: 'Principais Artistas',
         topTracks: 'Principais Faixas',
-        loginWithSpotify: 'Entrar com o Spotify'
+        loginWithSpotify: 'Entrar com o Spotify',
+        removeAccess: 'I want to revoke access',
+        removeAccessTitle: 'Revoke Access',
+        removeAccessDescription: 'To revoke access, follow the Spotify link below. You will be presented with a list of apps. Click "Remove Access" for  "Listur"',
+        removeAccessReturn: 'Got it, thanks!',
+        removeAccessContinue: 'Spotify',
     },
 }
