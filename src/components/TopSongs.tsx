@@ -38,14 +38,12 @@ const handleShare = () => {
                     items && items.map((track: Item, index: number) => {
                         return index < 10 ?
                             <li className="grid grid-cols-2 px-4 mb-3 w-full" key={track.name}>
-                                <div className="relative">
-                                <h4 className="text-xs w-6 h-6 font-bold absolute z-10 bg-white rounded-full -right-8 top-1/2 -translate-y-1/2 flex items-center justify-center">#{++index}</h4>
-                                    <img className="w-14 h-14 object-fill" src={track.album.images[2].url} alt="" />
-                                </div>
-                                <div className="flex flex-col justify-center w-full ml-10 truncate">
+                                <h4 className="text-xs w-6 h-6 font-bold z-10 bg-white rounded-full flex items-center justify-center">#{++index}</h4>
+                                {/*<img className="w-14 h-14 object-fill" src={track.album.images[2].url} alt="" />*/}
+                                <div className="flex flex-col justify-center w-full">
                                     <a href={track.external_urls.spotify} className="hover:underline">
-                                        <h4 className="text-xl font-bold pr-3 block w-11/12 truncate">{track.name}</h4>
-                                        <h4 className="italic text-xl font-bold truncate">{track.artists.map(artists => artists.name).join(', ')}</h4>
+                                        <h4 className="text-xl font-bold pr-3 block w-11/12">{track.name}</h4>
+                                        <h4 className="italic text-xl font-bold">{track.artists.map(artists => artists.name).join(', ')}</h4>
                                     </a>
                                 </div>
                             </li> : null
