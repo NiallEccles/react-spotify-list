@@ -4,7 +4,7 @@ import { FormattedMessage } from "react-intl";
 import { ExternalLink } from 'lucide-react';
 
 export const RemoveAccess = () => {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     function closeModal() {
         setIsOpen(false)
