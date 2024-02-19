@@ -12,12 +12,12 @@ import { messages } from './translations.ts'
 
 const queryClient = new QueryClient();
 
-const currentLocale = navigator.language;
+const currentLocale = navigator.language ?? 'en-GB';
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <IntlProvider messages={messages[currentLocale]} locale={navigator.language} defaultLocale="en">
+    <IntlProvider messages={messages[currentLocale]} locale={currentLocale} defaultLocale="en-GB">
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
           <App />
