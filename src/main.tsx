@@ -17,7 +17,7 @@ const currentLocale = navigator.language ?? 'en-GB';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <IntlProvider messages={messages[currentLocale]} locale={currentLocale} defaultLocale="en-GB">
+    <IntlProvider messages={messages[currentLocale] ?? messages['en-GB']} locale={currentLocale} defaultLocale="en-GB">
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
           <App />
